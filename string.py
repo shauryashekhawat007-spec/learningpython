@@ -24,6 +24,7 @@
 # for i in x:
 #     print(i)
 
+
 #4 Find length without using len()
 # x = "match"
 # count = 0
@@ -33,9 +34,12 @@
 # print(count)
 
 #5 check string is palindrome
-
-    
+def is_palindrome(s):
+  return str(s) == str(s)[::-1]
+print(is_palindrome("madam")) 
+print(is_palindrome(121))     
+print(is_palindrome("hello"))
 
 #6. Remove spaces from string
 # x = "helloworld   ".strip()
-# print(x)
+print(x,end= "  ")
